@@ -1,0 +1,65 @@
+// Trying out Custom theming; by including the var's from bootstrap-theme-generator app!
+// Commented out the inclusion of bootstrap functions, but then again, doesn't make much of a difference!
+// Modifying the var's below:
+
+    // They've imported the font's required for all Web-Apps to be DLS compliant!
+    // $blue:          #005CB9;
+    // $red:           #ed1c24;
+    // $orange:        #FF6B00;
+    // $yellow:        #FFB71B;
+    // $green:         #61A60E;
+    // $black:         #000005;
+    // $theme-colors: (
+    //     'green-2':      #80B261,
+    //     'green-3':      #9EC284,
+    //     'green-4':      #BED4A9,
+    //     'green-5':      #DDE8D1,
+    //     'orange':       $orange,
+    //     'orange-2':     #F79548,
+    //     'orange-3':     #F9A56F,
+    //     'orange-4':     #FCC198,
+    //     'orange-5':     #FEDEC7
+    // );
+    // $body-color:    $black;
+    // $font-family-base: Arial, sans-serif;
+    // $overflows: auto, hidden, visible;
+
+
+// Option A: Including all of bootstrap -> But it is being said that all bootstrap functionality won't be available in this method!
+
+// Importing bootstrap
+@import "../../node_modules/bootstrap/scss/bootstrap";
+
+// Option B: Including parts of bootstrap!
+
+// 1. Include functions first (so you can manipulate colors, SVGs, calc, etc)
+// @import "../../node_modules/bootstrap/scss/functions";
+/*
+
+
+// 2. Include any default variable overrides here
+
+// 3. Include remainder of required Bootstrap stylesheets (including any separate color mode stylesheets)
+@import "../../node_modules/bootstrap/scss/variables";
+@import "../../node_modules/bootstrap/scss/variables-dark";
+
+// 4. Include any default map overrides here
+
+// 5. Include remainder of required parts
+@import "../../node_modules/bootstrap/scss/maps";
+@import "../../node_modules/bootstrap/scss/mixins";
+@import "../../node_modules/bootstrap/scss/root";
+
+// 6. Optionally include any other parts as needed
+@import "../../node_modules/bootstrap/scss/utilities";
+@import "../../node_modules/bootstrap/scss/reboot";
+@import "../../node_modules/bootstrap/scss/type";
+@import "../../node_modules/bootstrap/scss/images";
+@import "../../node_modules/bootstrap/scss/containers";
+@import "../../node_modules/bootstrap/scss/grid";
+@import "../../node_modules/bootstrap/scss/helpers";
+
+// 7. Optionally include utilities API last to generate classes based on the Sass map in `_utilities.scss`
+@import "../../node_modules/bootstrap/scss/utilities/api";
+
+*/
